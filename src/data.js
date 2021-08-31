@@ -129,37 +129,37 @@ contents at the very beginning because it’s too practical, lack of good concep
       projectTitle: "Little things I have done.",
       projectInfo: [
         {
-          left: "CV-Generator",
+          left: "CV-Generator (Desktop Only)",
           right: "View Project",
           link: "https://near99.github.io/cv-project/",
           p: `A CV generator project built with React. Real time update inputs to CV preview template.`,
         },
         {
-          left: "Personal Portfolio Website",
+          left: "Personal Portfolio Website (Responsive)",
           right: "View Project",
           link: "https://near99.github.io/personal-portfolio/",
           p: `A responsive personal portfolio website built with React. Able to switch languages, light and dark themes. `,
         },
         {
-          left: "Mahjong Fan Calculator",
+          left: "Mahjong Fan Calculator (Mobile Only)",
           right: "View Project",
           link: "https://near99.github.io/mahjong_calculator/",
           p: `A simple International Mahjong fan calculator written in vanilla JavaScript. Real time displaying current ranking, game details. Uses localstorage.`,
         },
         {
-          left: "Booklist",
+          left: "Booklist (Desktop Only)",
           right: "View Project",
           link: "https://near99.github.io/library/",
           p: `A simple booklist written in vanilla JavaScript. Form validation and CSS grid practice.`,
         },
         {
-          left: "Calculator",
+          left: "Calculator (Desktop Only)",
           right: "View Project",
           link: "https://near99.github.io/calculator/",
           p: `A very basic calculator written in vanilla JavaScript. JS Class and CSS Flexbox practice.`,
         },
         {
-          left: "Etch A Sketch",
+          left: "Etch A Sketch (Desktop Only)",
           right: "View Project",
           link: "https://near99.github.io/etch-a-sketch/",
           p: `Simple Etch A Sketch written in vanilla JavaScript. DOM manipulation practice.`,
