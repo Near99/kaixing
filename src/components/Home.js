@@ -27,9 +27,7 @@ function Home({ handleSwitchTheme, handleSwitchLanguage, data }) {
           </TextContainer>
 
           <GoAboutMe>
-            <GoAboutMeLink to="/personal-portfolio/about">
-              {moreAboutMe}
-            </GoAboutMeLink>
+            <GoAboutMeLink to="/about">{moreAboutMe}</GoAboutMeLink>
             <GoAboutMeIcon>
               <HiArrowNarrowRight />
             </GoAboutMeIcon>
@@ -91,7 +89,7 @@ const BriefIntro = styled.p`
 
   @media screen and (max-width: 768px) {
     width: 100%;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 `;
 
@@ -108,6 +106,7 @@ const GoAboutMe = styled.div`
     font-size: 1rem;
     margin: 2rem 0;
     text-align: center;
+    font-weight: bold;
   }
 `;
 

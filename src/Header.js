@@ -19,7 +19,7 @@ function Header({ handleSwitchTheme, handleSwitchLanguage, data }) {
       <HeaderContainer>
         <Navbar>
           <HomeIcon>
-            <NavLink to="/personal-portfolio">
+            <NavLink to="/">
               <BsHouseFill />
             </NavLink>
           </HomeIcon>
