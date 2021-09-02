@@ -9,10 +9,10 @@ export const data = {
     home: {
       nameHeading: `I'm Kaixing Wang`,
       briefIntroOne: `
-      Hello there, I am a self-taught full-stack developer who has been learning by coding full-time via varieties of both paid and free resources online at home for three months. I have developed fairly good foundations with frontend technologies, and I am able to build functional web applications. Currently I am learning backend technologies starting with Node.js and MongoDB after finishing working with JavaScript (ES6+), React, HTML5, CSS3 in the browser.
+     Hello there, I am a self-taught full-stack developer who has been learning by coding full-time via varieties of both paid and free resources online at home for four months. I have developed fairly good foundations with frontend technologies, and I am now able to build functional web applications as rewards. Currently I am learning backend technologies starting with Node.js and MongoDB after finishing working with JavaScript (ES6+), React, HTML5, CSS3 in the browser. 
         `,
-      briefIntroTwo: `There is also a lot of time I spent on computer fundamental knowledge such as Data Structure and Algorithms, Computer networks, Operating systems, and Databases. I aim to be a real software engineer rather than a developer who can only code but knowing nothing of what is happening under the hood. You can go to the About page to check what I have been learning so far in more detail by clicking the link below. Thank you.`,
-      moreAboutMe: "Learn More About Me",
+      briefIntroTwo: `There is also an amount of hours I invested on computer fundamental knowledge such as Data Structure and Algorithms, Computer networks, Operating systems, and Databases. I aim to be a real software engineer rather than a developer who can only code but knowing nothing of what is happening under the hood. You can go to the About page to check what I have been learning , where I have been learning from so far in more detail, and my personal info by clicking the link below.  Thank you.`,
+      moreAboutMe: "More Info About Me",
     },
     about: {
       aboutTitle: "About Me.",
@@ -289,7 +289,7 @@ contents at the very beginning because it’s too practical, lack of good concep
       ],
     },
     contact: {
-      title: "How to react me",
+      title: "How to reach me",
       contactInfo: [
         { left: "Phone", right: "+86-0120-2433", address: "+86-0120-2433" },
         { left: "Wechat", right: "18601202433", address: "18601202433" },

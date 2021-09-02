@@ -41,7 +41,7 @@ const MainSection = styled.div`
   flex-flow: column;
   align-items: center;
   width: 100%;
-  min-height: 90vh;
+  min-height: 100vh;
   background: ${(props) => props.theme.bgc};
   color: ${(props) => props.theme.textc};
   transition: all 0.4s ease-in-out;
@@ -114,7 +114,6 @@ const UL = styled.ul`
 const List = styled.li`
   display: list-item;
   margin: 3rem 0px;
-  /* padding-left: 20px; */
   line-height: 1.5;
 
   &::before {
