@@ -9,7 +9,7 @@ export const data = {
     home: {
       nameHeading: `I'm Kaixing Wang`,
       briefIntroOne: `
-     Hello there, I am a self-taught full-stack developer who has been learning by coding full-time via varieties of both paid and free resources online at home for four months. I have developed fairly good foundations with frontend technologies, and I am now able to build functional web applications as rewards. Currently I am learning backend technologies starting with Node.js and MongoDB after finishing working with JavaScript (ES6+), React, HTML5, CSS3 in the browser. 
+     Hello there, I am a self-taught full-stack developer who has been learning by coding full-time via varieties of both paid and free resources online at home for five months. I have developed fairly good foundations with frontend technologies, and I am now able to build functional web applications as rewards. Currently I am learning backend technologies starting with Node.js and MongoDB after finishing working with JavaScript (ES6+), React, HTML5, CSS3 in the browser. 
         `,
       briefIntroTwo: `There is also an amount of hours I invested on computer fundamental knowledge such as Data Structure and Algorithms, Computer networks, Operating systems, and Databases. I aim to be a real software engineer rather than a developer who can only code but knowing nothing of what is happening under the hood. You can go to the About page to check what I have been learning , where I have been learning from so far in more detail, and my personal info by clicking the link below.  Thank you.`,
       moreAboutMe: "More Info About Me",
@@ -167,26 +167,11 @@ contents at the very beginning because it’s too practical, lack of good concep
       ],
     },
     contact: {
-      title: "Get in touch",
-      contactInfo: [
-        { left: "Phone", right: "+86-0120-2433", address: "+86-0120-2433" },
-        { left: "Wechat", right: "18601202433", address: "18601202433" },
-        {
-          left: "Email",
-          right: "wkx0823@gmail.com",
-          address: "wkx0823@gmail.com",
-        },
-        {
-          left: "Github",
-          right: "https://github.com/Near99",
-          address: "https://github.com/Near99",
-        },
-        {
-          left: "Linkedin",
-          right: "https://www.linkedin.com/in/kaixing-wong-b8b983145/",
-          address: "https://www.linkedin.com/in/kaixing-wong-b8b983145/",
-        },
-      ],
+      phone: "+86-186-0120-2433",
+      email: "wkx0823@gmail.com",
+      wechat: "18601202433",
+      github: "https://github.com/Near99",
+      linkedin: "https://www.linkedin.com/in/kaixing-wong-b8b983145/",
     },
   },
 
@@ -198,12 +183,12 @@ contents at the very beginning because it’s too practical, lack of good concep
       contact: "联系",
     },
     home: {
-      nameHeading: `我系渣渣灰`,
+      nameHeading: `欢迎观临`,
       briefIntroOne: `
-      骚枫盈橘葡输属波金殊港莎标伤叛辉里客滋锈踏藤浙脱视纱，滩第薄颌慕淬外，且梭商斑雌牙枪掠挑瓶滑短追允钻绝肆…界烙艺滥瓜缠燃药匪佐噪叔兔吏杠肝助秆姐瞎崎沾涅馈衍砷枕网铅兆蜜俭璃乌栓！
+      哈喽，我是一个自学的前端工程师，目前全职在家自学已经5个月左右了．现在感觉已经建立了比较良好的前端基础，能自己实现一些上层的Web App，也做了一些个人的小项目，都比较简陋，欢迎查看．了解掌握的技术为前端三件套JavaScript(ES6+)，框架选择为React．CSS3，HTML5．目前准备把精力放在后端知识上面，在学习Node．
         `,
       briefIntroTwo: ` 
-      醋支集央笛京勾末胸脆份茵说凯伪颊陨缸宝醉谷择耿躺邻稿？亭草捐坚丧归贤毒颠膏充抹颁集醇脂俊埃弦桥很漆膜缝官亲蒜聚履奏兽匀菇衷陵永村鼓加似耸金裂御荒，便弗祥糖堆厌档衣模焦柱饿顶写、授冈钮坛坑鞋北屯张唤铺奉盗述型谎。
+      学习过程中有相当一部分的时间我花在了计算机基础知识上，比如数据结构和算法，计算机网络，操作系统和数据库．我的目标是成为一个货真价实的工程师，区分开只知道堆代码完全不理解运行原理的码农．欢迎到关于我的页面浏览一下我的学习路径和所用的学习资源，谢谢．
               `,
       moreAboutMe: "了解更多",
     },
@@ -211,104 +196,159 @@ contents at the very beginning because it’s too practical, lack of good concep
       aboutTitle: "关于我",
       aboutInfo: [
         {
-          left: "波金",
-          right: "查看波金",
-          p: `牛四告訴黃動美十夏同，吉尾還首春種雨祖走春、哥黃卜良位來牠枝水校斥造，聲申爬。木發土胡。面金師十英喝急英只，未彩明經！吃羊歌沒品請行前晚泉許誰生菜朵頁身，反用兆南綠旁？包掃央裏害青月歡。南怕何休歌跟喜到公自小公太冰第、首她大早魚禾昔光同何奶爬借前波：鴨收跑枝兒父後，就棵因知珠千？把汗跳爬方金耳跟吹占成休婆，兆去發肉這字平忍戊行節節，發對一才。斥新共國果洋貝邊化音小地紅？時瓜民國跟。`,
+          left: "教育背景",
+          right: "伦敦大学皇家霍洛维",
+          link: "https://www.royalholloway.ac.uk/",
+          p: `
+          我本科毕业与伦敦大学皇家霍洛维学院，正式毕业时间为2020年10月，因为疫情的影响我们这届的毕业证延期比较大，2021年7月才正式拿到毕业证，将近一年的时间..心态爆炸．
+          `,
         },
         {
-          left: "波金",
-          right: "查看波金",
-          p: `牛四告訴黃動美十夏同，吉尾還首春種雨祖走春、哥黃卜良位來牠枝水校斥造，聲申爬。木發土胡。面金師十英喝急英只，未彩明經！吃羊歌沒品請行前晚泉許誰生菜朵頁身，反用兆南綠旁？包掃央裏害青月歡。南怕何休歌跟喜到公自小公太冰第、首她大早魚禾昔光同何奶爬借前波：鴨收跑枝兒父後，就棵因知珠千？把汗跳爬方金耳跟吹占成休婆，兆去發肉這字平忍戊行節節，發對一才。斥新共國果洋貝邊化音小地紅？時瓜民國跟。`,
+          left: "入坑原因?",
+          right: "编程很酷",
+          link: "https://teachmag.com/archives/7626",
+          p: `
+          个人一直对编程是很有兴趣的，因为种种原因吧，没有机会在大学读一个计算机相关的学位．这里还是要感谢疫情的...疫情前是没有毕业回国这个打算的．原计划准备在海外工作一段时间，做做市场或者咨询相关的工作．因为疫情影响导致所有的计划，规划都被打乱．回国之后因为要等毕业证，时间没那么紧迫仔细思考了一下接下来要干什么，想了一下正好是个机会，有时间，互联网上资源也很多，立马开始规划自学编程．虽然有一定规划，但是过程还是非常曲折，一度想放弃，还是感谢自己在无人指点的情况下一步一步走到了现在．下面我会把我所有使用过的资源都在列出来，如果看到这个的你也有自学前端或者全栈的意愿，希望我的故事对你有帮助和启发．PS：所列资源为100%英文，中文资源可能要自己寻找了，抱歉．`,
         },
         {
-          left: "波金",
-          right: "查看波金",
-          p: `牛四告訴黃動美十夏同，吉尾還首春種雨祖走春、哥黃卜良位來牠枝水校斥造，聲申爬。木發土胡。面金師十英喝急英只，未彩明經！吃羊歌沒品請行前晚泉許誰生菜朵頁身，反用兆南綠旁？包掃央裏害青月歡。南怕何休歌跟喜到公自小公太冰第、首她大早魚禾昔光同何奶爬借前波：鴨收跑枝兒父後，就棵因知珠千？把汗跳爬方金耳跟吹占成休婆，兆去發肉這字平忍戊行節節，發對一才。斥新共國果洋貝邊化音小地紅？時瓜民國跟。`,
+          left: "CS50 - 计算机导论 (哈佛公开课-免费)",
+          right: "查看CS50",
+          link: "https://online-learning.harvard.edu/course/cs50-introduction-computer-science?delta=0",
+          p: `
+          我学的第一门课，在我看来是地表最强的计算机导论课．课程结构设计的我认为完美，循序渐进，配合大卫的授课风格，我愿称之为一绝．具体花了多久在这门课上面记不清了，认真学完之后保证对计算机科学和编程有一定程度的了解，从基本的编程语言执行逻辑，到算法和数据结构，到内存CPU．教学主语言为C，后面有介绍Python, JS等等．有时间可以把课后练习都做完，我做了前半部分，后半部分跳过了．
+          `,
         },
         {
-          left: "波金",
-          right: "查看波金",
-          p: `牛四告訴黃動美十夏同，吉尾還首春種雨祖走春、哥黃卜良位來牠枝水校斥造，聲申爬。木發土胡。面金師十英喝急英只，未彩明經！吃羊歌沒品請行前晚泉許誰生菜朵頁身，反用兆南綠旁？包掃央裏害青月歡。南怕何休歌跟喜到公自小公太冰第、首她大早魚禾昔光同何奶爬借前波：鴨收跑枝兒父後，就棵因知珠千？把汗跳爬方金耳跟吹占成休婆，兆去發肉這字平忍戊行節節，發對一才。斥新共國果洋貝邊化音小地紅？時瓜民國跟。`,
+          left: "freeCodeCamp (免费)",
+          right: "查看freeCodeCamp",
+          link: "https://www.freecodecamp.org/",
+          p: `
+          学了HTML，CSS基础，响应式开发，一点点JS．后面切换到The Odin Project．freeCodeCamp主站的文字内容我感觉设计的不是很好，不是很推荐．油管上面的视频有些质量还是非常高的，比较推荐．
+          `,
         },
         {
-          left: "波金",
-          right: "查看波金",
-          p: `牛四告訴黃動美十夏同，吉尾還首春種雨祖走春、哥黃卜良位來牠枝水校斥造，聲申爬。木發土胡。面金師十英喝急英只，未彩明經！吃羊歌沒品請行前晚泉許誰生菜朵頁身，反用兆南綠旁？包掃央裏害青月歡。南怕何休歌跟喜到公自小公太冰第、首她大早魚禾昔光同何奶爬借前波：鴨收跑枝兒父後，就棵因知珠千？把汗跳爬方金耳跟吹占成休婆，兆去發肉這字平忍戊行節節，發對一才。斥新共國果洋貝邊化音小地紅？時瓜民國跟。`,
+          left: "奥丁全栈训练营 (免费)",
+          right: "查看奥丁训练营",
+          link: "https://www.theodinproject.com/dashboard",
+          p: `这个是我主要学习曲线，很遗憾没有最早就挖掘到这个站．奥丁提供时下最新的全栈自学路径，是一个资源的集合，结构清晰．我最喜欢奥丁的原因就是奥丁提供了一系列的练习项目，每一个重要的知识点结束后会留一个作业，非常棒．2021年8月5号完成所有JS相关章节，去学习后端了.`,
         },
         {
-          left: "波金",
-          right: "查看波金",
-          p: `牛四告訴黃動美十夏同，吉尾還首春種雨祖走春、哥黃卜良位來牠枝水校斥造，聲申爬。木發土胡。面金師十英喝急英只，未彩明經！吃羊歌沒品請行前晚泉許誰生菜朵頁身，反用兆南綠旁？包掃央裏害青月歡。南怕何休歌跟喜到公自小公太冰第、首她大早魚禾昔光同何奶爬借前波：鴨收跑枝兒父後，就棵因知珠千？把汗跳爬方金耳跟吹占成休婆，兆去發肉這字平忍戊行節節，發對一才。斥新共國果洋貝邊化音小地紅？時瓜民國跟。`,
+          left: "Ben Awad - 油管频道 (免费)",
+          right: "查看频道",
+          link: "https://www.youtube.com/c/BenAwad97",
+          p: `这货是个开源作者．早期频道分享一些全栈技术教程，目前因为自己的开源项目莫名其妙拿了百万美刀被迫给自己的项目打工去了，分享的视频变成了公司运营和宏观编程的一些东西．他的内容总体来说不适合特别新的新手，虽然他标题可能是入门但是小白听了很难跟上．不过还是学了很多东西，我的目标．`,
         },
         {
-          left: "波金",
-          right: "查看波金",
-          p: `牛四告訴黃動美十夏同，吉尾還首春種雨祖走春、哥黃卜良位來牠枝水校斥造，聲申爬。木發土胡。面金師十英喝急英只，未彩明經！吃羊歌沒品請行前晚泉許誰生菜朵頁身，反用兆南綠旁？包掃央裏害青月歡。南怕何休歌跟喜到公自小公太冰第、首她大早魚禾昔光同何奶爬借前波：鴨收跑枝兒父後，就棵因知珠千？把汗跳爬方金耳跟吹占成休婆，兆去發肉這字平忍戊行節節，發對一才。斥新共國果洋貝邊化音小地紅？時瓜民國跟。`,
+          left: "Clement Mihailescu - 油管频道 (免费)",
+          right: "查看频道",
+          link: "https://www.youtube.com/channel/UCaO6VoaYJv4kS-TQO_M-N_g",
+          p: `这个货从宾大数学系毕业后参加六个月的全栈训练营把自己弄进谷歌了．故事非常鼓舞人心，经常反而赛，不过我还是没他那么勤奋，目前进个国内的大厂应该都没戏了，哎．他的一些视频关于心态方面的很不错，推荐．`,
+        },
+        {
+          left: "Algoexpert",
+          right: "查看Algoexpert",
+          link: "https://www.algoexpert.io/product",
+          p: `上面那个谷歌工程师自己做的算法训练平台，收费，不过内容非常的爆炸，讲解的非常详细，我很喜欢．不过目前的完成度很低．`,
+        },
+        {
+          left: "MDN Web 文档 (免费)",
+          right: "查看MDN",
+          link: "https://developer.mozilla.org/en-US/",
+          p: `应该是最经常访问的一个站了，Web API和JS的一些方法记不住了就去上面找．`,
+        },
+        {
+          left: "JavaScript30 - Wes Box (免费)",
+          right: "查看JS30",
+          link: "https://javascript30.com/",
+          p: `30天，30个原生JS的小练习．不借助任何库和框架实现一些功能．很早就发现这个了，内容很好有配套的视频讲解．不过我还没完成，很惭愧．`,
+        },
+        {
+          left: "Traversy Media - 油管频道 (免费)",
+          right: "查看频道",
+          link: "https://www.youtube.com/c/TraversyMedia",
+          p: `一系列前端教程，加上一系列实践项目视频．质量还可以，但是缺少理论原理讲解，个人不是很喜欢．`,
+        },
+        {
+          left: "Ben Eater - 油管频道 (免费)",
+          right: "查看频道",
+          link: "https://www.youtube.com/c/BenEater",
+          p: `这个频道是我目前在油管看到讲解网络相关知识最好的．有一期网络入门，13集，非常棒．`,
+        },
+
+        {
+          left: "JavaScript: Understanding the Weird Parts - Anthony Alicea",
+          right: "查看课程",
+          link: "https://www.udemy.com/course/understand-javascript/",
+          p: `看过最好的关于JS原理解析课程，付费．这门课可以帮助理解JS执行过程，从Syntax Parsers, Execution Contexts和Lexical Environments的创建．同时提高我对一些JS高阶知识点的理解比如闭包，原型链继承，IIFEs等等．`,
+        },
+        {
+          left: "Promises, Async, and Await - Tony Alicea 油管频道 (免费)",
+          right: "查看频道",
+          link: "https://www.youtube.com/watch?v=fyGSyqEX2dw&t=1156s",
+          p: `跟Understanding the Weird Parts同一个作者，油管上免费的一期节目，讲Promise．从历史，原理，到简单实现一个Promise．`,
+        },
+        {
+          left: "到底什么是事件循环？ - Philip Roberts | JSConf EU",
+          right: "查看视频",
+          link: "https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=479s",
+          p: `关于事件循环的一期论坛分享，非常通俗易懂，但应该不算特别的深入．`,
+        },
+        {
+          left: "A Complete Guide to Flexbox - CSS Tricks",
+          right: "查看文章",
+          link: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+          p: `没认真学过CSS，目前只会Flex & Grid一把梭．这篇文章Flex讲的很棒，通俗易懂，不过还是经常往，需要从经常回去复习一下．这个站的所有资源感觉都还挺好的．`,
         },
       ],
     },
 
     project: {
-      projectTitle: "吉尾還首春種雨",
+      projectTitle: "一些小项目",
       projectInfo: [
         {
-          left: "波金",
-          right: "查看波金",
-          p: `牛四告訴黃動美十夏同，吉尾還首春種雨祖走春、哥黃卜良位來牠枝水校斥造，聲申爬。木發土胡。面金師十英喝急英只，未彩明經！吃羊歌沒品請行前晚泉許誰生菜朵頁身，反用兆南綠旁？包掃央裏害青月歡。南怕何休歌跟喜到公自小公太冰第、首她大早魚禾昔光同何奶爬借前波：鴨收跑枝兒父後，就棵因知珠千？把汗跳爬方金耳跟吹占成休婆，兆去發肉這字平忍戊行節節，發對一才。斥新共國果洋貝邊化音小地紅？時瓜民國跟。`,
+          left: "简历生成器 (桌面)",
+          right: "查看项目",
+          link: "https://near99.github.io/cv-project/",
+          p: `简历生成工具，使用React编写．实现简历编辑实时预览．`,
         },
         {
-          left: "波金",
-          right: "查看波金",
-          p: `牛四告訴黃動美十夏同，吉尾還首春種雨祖走春、哥黃卜良位來牠枝水校斥造，聲申爬。木發土胡。面金師十英喝急英只，未彩明經！吃羊歌沒品請行前晚泉許誰生菜朵頁身，反用兆南綠旁？包掃央裏害青月歡。南怕何休歌跟喜到公自小公太冰第、首她大早魚禾昔光同何奶爬借前波：鴨收跑枝兒父後，就棵因知珠千？把汗跳爬方金耳跟吹占成休婆，兆去發肉這字平忍戊行節節，發對一才。斥新共國果洋貝邊化音小地紅？時瓜民國跟。`,
+          left: "个人主页 (响应式)",
+          right: "查看项目",
+          link: "https://near99.github.io/personal-portfolio/",
+          p: `响应式个人主页，支持语言切换，黑白主题切换.`,
         },
         {
-          left: "波金",
-          right: "查看波金",
-          p: `牛四告訴黃動美十夏同，吉尾還首春種雨祖走春、哥黃卜良位來牠枝水校斥造，聲申爬。木發土胡。面金師十英喝急英只，未彩明經！吃羊歌沒品請行前晚泉許誰生菜朵頁身，反用兆南綠旁？包掃央裏害青月歡。南怕何休歌跟喜到公自小公太冰第、首她大早魚禾昔光同何奶爬借前波：鴨收跑枝兒父後，就棵因知珠千？把汗跳爬方金耳跟吹占成休婆，兆去發肉這字平忍戊行節節，發對一才。斥新共國果洋貝邊化音小地紅？時瓜民國跟。`,
+          left: "麻将算番器 (移动端)",
+          right: "查看项目",
+          link: "https://near99.github.io/mahjong_calculator/",
+          p: `原生JS编写简易国标麻将计算器．`,
         },
         {
-          left: "波金",
-          right: "查看波金",
-          p: `牛四告訴黃動美十夏同，吉尾還首春種雨祖走春、哥黃卜良位來牠枝水校斥造，聲申爬。木發土胡。面金師十英喝急英只，未彩明經！吃羊歌沒品請行前晚泉許誰生菜朵頁身，反用兆南綠旁？包掃央裏害青月歡。南怕何休歌跟喜到公自小公太冰第、首她大早魚禾昔光同何奶爬借前波：鴨收跑枝兒父後，就棵因知珠千？把汗跳爬方金耳跟吹占成休婆，兆去發肉這字平忍戊行節節，發對一才。斥新共國果洋貝邊化音小地紅？時瓜民國跟。`,
+          left: "书单管理 (桌面)",
+          right: "查看项目",
+          link: "https://near99.github.io/library/",
+          p: `简易书单管理页面，表单验证和CSS Grid练习项目.`,
         },
         {
-          left: "波金",
-          right: "查看波金",
-          p: `牛四告訴黃動美十夏同，吉尾還首春種雨祖走春、哥黃卜良位來牠枝水校斥造，聲申爬。木發土胡。面金師十英喝急英只，未彩明經！吃羊歌沒品請行前晚泉許誰生菜朵頁身，反用兆南綠旁？包掃央裏害青月歡。南怕何休歌跟喜到公自小公太冰第、首她大早魚禾昔光同何奶爬借前波：鴨收跑枝兒父後，就棵因知珠千？把汗跳爬方金耳跟吹占成休婆，兆去發肉這字平忍戊行節節，發對一才。斥新共國果洋貝邊化音小地紅？時瓜民國跟。`,
+          left: "计算器 (桌面)",
+          right: "查看项目",
+          link: "https://near99.github.io/calculator/",
+          p: `原生JS+Flexbox实现简单计算器，Class练习项目.`,
         },
         {
-          left: "波金",
-          right: "查看波金",
-          p: `牛四告訴黃動美十夏同，吉尾還首春種雨祖走春、哥黃卜良位來牠枝水校斥造，聲申爬。木發土胡。面金師十英喝急英只，未彩明經！吃羊歌沒品請行前晚泉許誰生菜朵頁身，反用兆南綠旁？包掃央裏害青月歡。南怕何休歌跟喜到公自小公太冰第、首她大早魚禾昔光同何奶爬借前波：鴨收跑枝兒父後，就棵因知珠千？把汗跳爬方金耳跟吹占成休婆，兆去發肉這字平忍戊行節節，發對一才。斥新共國果洋貝邊化音小地紅？時瓜民國跟。`,
-        },
-        {
-          left: "波金",
-          right: "查看波金",
-          p: `牛四告訴黃動美十夏同，吉尾還首春種雨祖走春、哥黃卜良位來牠枝水校斥造，聲申爬。木發土胡。面金師十英喝急英只，未彩明經！吃羊歌沒品請行前晚泉許誰生菜朵頁身，反用兆南綠旁？包掃央裏害青月歡。南怕何休歌跟喜到公自小公太冰第、首她大早魚禾昔光同何奶爬借前波：鴨收跑枝兒父後，就棵因知珠千？把汗跳爬方金耳跟吹占成休婆，兆去發肉這字平忍戊行節節，發對一才。斥新共國果洋貝邊化音小地紅？時瓜民國跟。`,
+          left: "画板 (桌面)",
+          right: "查看项目",
+          link: "https://near99.github.io/etch-a-sketch/",
+          p: `原生JS实现画板，DOM操作练习项目．`,
         },
       ],
     },
     contact: {
-      title: "How to reach me",
-      contactInfo: [
-        { left: "Phone", right: "+86-0120-2433", address: "+86-0120-2433" },
-        { left: "Wechat", right: "18601202433", address: "18601202433" },
-        {
-          left: "Email",
-          right: "wkx0823@gmail.com",
-          address: "wkx0823@gmail.com",
-        },
-        {
-          left: "Github",
-          right: "https://github.com/Near99",
-          address: "https://github.com/Near99",
-        },
-        {
-          left: "Linkedin",
-          right: "https://www.linkedin.com/in/kaixing-wong-b8b983145/",
-          address: "https://www.linkedin.com/in/kaixing-wong-b8b983145/",
-        },
-      ],
+      phone: "+86-186-0120-2433",
+      email: "wkx0823@gmail.com",
+      wechat: "18601202433",
+      github: "https://github.com/Near99",
+      linkedin: "https://www.linkedin.com/in/kaixing-wong-b8b983145/",
     },
   },
 };

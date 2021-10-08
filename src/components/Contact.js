@@ -11,6 +11,7 @@ import {
 } from "react-icons/ai";
 
 function Contact({ handleSwitchTheme, handleSwitchLanguage, data }) {
+  const { phone, email, wechat, github, linkedin } = data.contact;
   return (
     <div>
       <Header
@@ -25,35 +26,35 @@ function Contact({ handleSwitchTheme, handleSwitchLanguage, data }) {
               <IconWrapper>
                 <AiFillPhone />
               </IconWrapper>
-              +86-0120-2433
+              {phone}
             </ContactInfoList>
 
             <ContactInfoList>
               <IconWrapper>
                 <AiTwotoneMail />
               </IconWrapper>
-              wkx0823@gmail.com
+              {email}
             </ContactInfoList>
 
             <ContactInfoList>
               <IconWrapper>
                 <AiFillWechat />
               </IconWrapper>
-              18601202433
+              {wechat}
             </ContactInfoList>
 
             <ContactInfoList>
               <IconWrapper>
                 <AiFillGithub />
               </IconWrapper>
-              https://github.com/Near99
+              {github}
             </ContactInfoList>
 
             <ContactInfoList>
               <IconWrapper>
                 <AiFillLinkedin />
               </IconWrapper>
-              https://www.linkedin.com/in/kaixing-wong-b8b983145/
+              {linkedin}
             </ContactInfoList>
           </OL>
         </ContentSection>
