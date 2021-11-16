@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import Header from "../Header";
+import Header from "../Header.jsx";
 import styled from "styled-components";
 import {
   AiFillWechat,
@@ -13,7 +13,7 @@ import {
 function Contact({ handleSwitchTheme, handleSwitchLanguage, data }) {
   const { phone, email, wechat, github, linkedin } = data.contact;
   return (
-    <div>
+    <>
       <Header
         handleSwitchTheme={handleSwitchTheme}
         handleSwitchLanguage={handleSwitchLanguage}
@@ -59,7 +59,7 @@ function Contact({ handleSwitchTheme, handleSwitchLanguage, data }) {
           </OL>
         </ContentSection>
       </MainSection>
-    </div>
+    </>
   );
 }
 

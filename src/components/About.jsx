@@ -1,22 +1,22 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import Header from "../Header";
+import Header from "../Header.jsx";
 import styled from "styled-components";
 
-function Project({ handleSwitchTheme, handleSwitchLanguage, data }) {
-  const projectTitle = data.project.projectTitle;
-  const projectInfo = data.project.projectInfo;
-  const project = projectInfo.map((project, index) => {
+function About({ handleSwitchTheme, handleSwitchLanguage, data }) {
+  const aboutTitle = data.about.aboutTitle;
+  const aboutInfo = data.about.aboutInfo;
+  const about = aboutInfo.map((about, index) => {
     return (
       <List key={index}>
-        <OuterLinkLeft>{project.left}</OuterLinkLeft>
-        <OuterLinkRight href={project.link}>{project.right}</OuterLinkRight>
-        <P>{project.p}</P>
+        <OuterLinkLeft>{about.left}</OuterLinkLeft>
+        <OuterLinkRight href={about.link}>{about.right}</OuterLinkRight>
+        <P>{about.p}</P>
       </List>
     );
   });
   return (
-    <div>
+    <>
       <Header
         handleSwitchTheme={handleSwitchTheme}
         handleSwitchLanguage={handleSwitchLanguage}
@@ -24,29 +24,33 @@ function Project({ handleSwitchTheme, handleSwitchLanguage, data }) {
       />
       <MainSection>
         <ContentSection>
-          <Title>{projectTitle}</Title>
+          <Title>{aboutTitle}</Title>
           <Background>
-            <UL>{project}</UL>
+            <UL>{about}</UL>
           </Background>
         </ContentSection>
       </MainSection>
-    </div>
+    </>
   );
 }
 
-export default Project;
+export default About;
 
 const MainSection = styled.div`
   display: flex;
   flex-flow: column;
   align-items: center;
   width: 100%;
-  min-height: 100vh;
+  height: 120vh;
   background: ${(props) => props.theme.bgc};
   color: ${(props) => props.theme.textc};
   transition: all 0.4s ease-in-out;
 
-  @media screen and (max-width: 3300px) {
+  @media screen and (max-width: 8000px) {
+    height: 250vh;
+  }
+
+  @media screen and (max-width: 2695px) {
     height: auto;
   }
 
@@ -114,6 +118,7 @@ const UL = styled.ul`
 const List = styled.li`
   display: list-item;
   margin: 3rem 0px;
+  /* padding-left: 20px; */
   line-height: 1.5;
 
   &::before {
@@ -151,6 +156,7 @@ const OuterLinkRight = styled.a`
   font-size: 1.3rem;
   color: ${(props) => props.theme.aboutlc};
   text-decoration: underline;
+  cursor: pointer;
 
   @media screen and (max-width: 742px) {
     font-size: 1rem;

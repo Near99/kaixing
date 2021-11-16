@@ -15,7 +15,7 @@ function Header({ handleSwitchTheme, handleSwitchLanguage, data }) {
   const { about, contact, project, resume } = data.nav;
 
   return (
-    <div>
+    <>
       <HeaderContainer>
         <Navbar>
           <HomeIcon>
@@ -75,7 +75,7 @@ function Header({ handleSwitchTheme, handleSwitchLanguage, data }) {
           </MobileMenu>
         </Navbar>
       </HeaderContainer>
-    </div>
+    </>
   );
 }
 

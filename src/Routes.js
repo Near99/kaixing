@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { darkTheme, lightTheme } from "./components/Theme/theme";
 import App from "./App";
-import About from "./components/About";
-import Project from "./components/Project";
-import Contact from "./components/Contact";
+import About from "./components/About.jsx";
+import Project from "./components/Project.jsx";
+import Contact from "./components/Contact.jsx";
 import { data } from "./data";
 
 function Routes() {

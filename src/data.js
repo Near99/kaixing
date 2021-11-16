@@ -18,6 +18,15 @@ export const data = {
       aboutTitle: "About Me.",
       aboutInfo: [
         {
+          left: "Status Update 16th November 2021",
+          right: "I am finally a software engineer!",
+          link: "https://google.com",
+          p: `It’s still hard to believe that I got a software engineering offer from Huawei (OD). The best of the best is that the team asked if I could switch from frontend to c/c++ development. I said yes, sure, of course in less than a second as I never really liked frontend especially styling, I hate styling, writing CSS more than anything in this world. Couldn’t be happier to be honest. 
+
+I am a huge fan of the open source community and Linus Torvalds. Been reading his book “Just for Fun” recently and thinking about when I could be a C programmer. Then there we go!! 
+`,
+        },
+        {
           left: "Status Update, 30th August 2021",
           right: "Be better",
           link: "https://google.com",

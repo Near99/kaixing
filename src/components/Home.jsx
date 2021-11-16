@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import Header from "../Header";
+import Header from "../Header.jsx";
 import styled from "styled-components";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Home({ handleSwitchTheme, handleSwitchLanguage, data }) {
   const { nameHeading, briefIntroOne, briefIntroTwo, moreAboutMe } = data.home;
   return (
-    <div>
+    <>
       <Header
         handleSwitchTheme={handleSwitchTheme}
         handleSwitchLanguage={handleSwitchLanguage}
@@ -25,7 +25,6 @@ function Home({ handleSwitchTheme, handleSwitchLanguage, data }) {
           <TextContainer>
             <BriefIntro>{briefIntroTwo}</BriefIntro>
           </TextContainer>
-
           <GoAboutMe>
             <GoAboutMeLink to="/about">{moreAboutMe}</GoAboutMeLink>
             <GoAboutMeIcon>
@@ -34,7 +33,7 @@ function Home({ handleSwitchTheme, handleSwitchLanguage, data }) {
           </GoAboutMe>
         </HeroContainer>
       </HomeSection>
-    </div>
+    </>
   );
 }
 
